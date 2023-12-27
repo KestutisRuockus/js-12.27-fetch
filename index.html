@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FETCH, API</title>
+    <style>
+      div {
+        width: 600px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      select {
+        height: 30px;
+        width: 200px;
+        margin-bottom: 20px;
+      }
+      img{
+        width: 500px;
+        height: 350px
+      }
+    </style>
+  </head>
+  <body"
+    style="display: flex; justify-content: center"
+  >
+    <!-- <div class="pienas">Lorem ipsum dolor.</div> -->
+    <!-- <script src="script.js"></script> -->
+    <div>
+      <select onchange="showBreedPhoto()" id="droplist">
+      </select>
+      <div id="image"></div>
+      <h1></h1>
+      <button id="btn">Get Breeds List</button>
+    </div>
+    <script src="fetch.js"></script>
+  </body>
+</html>
